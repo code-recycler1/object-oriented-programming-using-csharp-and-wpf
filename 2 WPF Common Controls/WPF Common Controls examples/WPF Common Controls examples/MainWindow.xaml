@@ -6,12 +6,15 @@
         xmlns:local="clr-namespace:WPF_Common_Controls_examples"
         mc:Ignorable="d"
         Title="Common Controls" Height="450" Width="800">
+    <!-- Main container using a StackPanel -->
     <StackPanel Orientation="Vertical">
         <Label x:Name= "lblResult" 
                Content="Hello World!" />
 
-        <GroupBox Header="Backgroundcolor">
+        <!-- GroupBox for background color options -->
+        <GroupBox Header="Background Color">
             <StackPanel>
+                <!-- RadioButton for Red background -->
                 <RadioButton x:Name="rbRed" 
                              Content="Red" 
                              Tag="Red" 
@@ -19,6 +22,7 @@
                              GroupName="grpColor" 
                              Checked="rbRed_Checked" />
 
+                <!-- RadioButton for Blue background -->
                 <RadioButton x:Name="rbBlue" 
                              Content="Blue" 
                              Tag="Blue" 	
@@ -26,6 +30,7 @@
                              GroupName="grpColor"
                              Checked="rbBlue_Checked" />
 
+                <!-- RadioButton for Green background -->
                 <RadioButton x:Name="rbGreen" 
                              Content="Green" 
                              Tag="Green" 	
@@ -33,6 +38,7 @@
                              GroupName="grpColor" 
                              Checked="rbGreen_Checked" />
 
+                <!-- RadioButton for White background -->
                 <RadioButton x:Name="rbWhite" 
                              Content="White" 
                              Tag="White" 	
@@ -42,20 +48,23 @@
             </StackPanel>
         </GroupBox>
 
+        <!-- GroupBox for font style options -->
         <GroupBox Header="Font">
             <WrapPanel Orientation="Vertical">
+                <!-- CheckBox for Bold font -->
                 <CheckBox x:Name="cbBold" 
                           Content="Bold" 
                           Margin="10" 
                           Checked="cbBold_Checked" 
                           Unchecked="cbBold_Unchecked" />
 
+                <!-- CheckBox for Italic font -->
                 <CheckBox x:Name="cbItalic" 
                           Content="Italic" 
-                          Margin="10" Checked="cbItalic_Checked" Unchecked="cbItalic_Unchecked"
-                          />
+                          Margin="10" 
+                          Checked="cbItalic_Checked" 
+                          Unchecked="cbItalic_Unchecked" />
             </WrapPanel>
         </GroupBox>
-
     </StackPanel>
 </Window>
