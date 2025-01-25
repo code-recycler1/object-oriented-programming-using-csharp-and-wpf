@@ -1,0 +1,61 @@
+﻿<Window x:Class="WPF_Common_Controls_examples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Common_Controls_examples"
+        mc:Ignorable="d"
+        Title="Common Controls" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Label x:Name= "lblResult" 
+               Content="Hello World!" />
+
+        <GroupBox Header="Backgroundcolor">
+            <StackPanel>
+                <RadioButton x:Name="rbRed" 
+                             Content="Red" 
+                             Tag="Red" 
+                             Margin="10" 	
+                             GroupName="grpColor" 
+                             Checked="rbRed_Checked" />
+
+                <RadioButton x:Name="rbBlue" 
+                             Content="Blue" 
+                             Tag="Blue" 	
+                             Margin="10" 
+                             GroupName="grpColor"
+                             Checked="rbBlue_Checked" />
+
+                <RadioButton x:Name="rbGreen" 
+                             Content="Green" 
+                             Tag="Green" 	
+                             Margin="10" 
+                             GroupName="grpColor" 
+                             Checked="rbGreen_Checked" />
+
+                <RadioButton x:Name="rbWhite" 
+                             Content="White" 
+                             Tag="White" 	
+                             Margin="10" 
+                             GroupName="grpColor" 
+                             Checked="rbWhite_Checked" />
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="Font">
+            <WrapPanel Orientation="Vertical">
+                <CheckBox x:Name="cbBold" 
+                          Content="Bold" 
+                          Margin="10" 
+                          Checked="cbBold_Checked" 
+                          Unchecked="cbBold_Unchecked" />
+
+                <CheckBox x:Name="cbItalic" 
+                          Content="Italic" 
+                          Margin="10" Checked="cbItalic_Checked" Unchecked="cbItalic_Unchecked"
+                          />
+            </WrapPanel>
+        </GroupBox>
+
+    </StackPanel>
+</Window>
