@@ -1,4 +1,4 @@
-# Example_1
+# WPF Start examples
 
 ## Project Structure
 

@@ -1,0 +1,47 @@
+﻿<Window x:Class="WPF_Start_exercises.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Start_exercises"
+        mc:Ignorable="d"
+        Title="WPF Start Exercises" Height="250" Width="400">
+    <!-- Main container for the buttons -->
+    <StackPanel>
+        <!-- Button to open the exercise 1 window -->
+        <Button Content="Exercise 1 - Dice" 
+                x:Name="btnExercise_1_Dice"
+                Margin="5" 
+                Click="btnExercise_1_Dice_Click" />
+
+        <!-- Button to open the exercise 2 window -->
+        <Button Content="Exercise 2 - Circle" 
+                x:Name="btnExercise_2_Circle" 
+                Margin="5" 
+                Click="btnExercise_2_Circle_Click" />
+
+        <!-- Button to open the exercise 3 window -->
+        <Button Content="Exercise 3 - Cash Register" 
+                x:Name="btnExercise_3_Cash_Register" 
+                Margin="5" 
+                Click="btnExercise_3_Cash_Register_Click" />
+
+        <!-- Button to open the exercise 4 window -->
+        <Button Content="Exercise 4 - Employee" 
+                x:Name="btnExercise_4_Employee" 
+                Margin="5"
+                Click="btnExercise_4_Employee_Click" />
+
+        <!-- Button to open the exercise 5 window -->
+        <Button Content="Exercise 5 - Multiplication Tables" 
+                x:Name="btnExercise_5_Multiplication_Tables" 
+                Margin="5" 
+                Click="btnExercise_5_Multiplication_Tables_Click" />
+
+        <!-- Button to close the application -->
+        <Button Content="Close" 
+                x:Name="btnClose" 
+                Margin="5" 
+                Click="btnClose_Click" />
+    </StackPanel>
+</Window>
