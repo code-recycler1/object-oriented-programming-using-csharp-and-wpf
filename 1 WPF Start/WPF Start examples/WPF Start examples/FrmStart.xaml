@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_Start_examples.FrmStart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Start_examples"
+        mc:Ignorable="d"
+        Title="FrmStart" Height="150" Width="300">
+    <!-- Main container for the buttons -->
+    <StackPanel>
+        <!-- Button to open the FrmGrid window -->
+        <Button Content="Open FrmGrid" 
+                x:Name="btnGrid"
+                Margin="5" 
+                Click="btnGrid_Click" />
+
+        <!-- Button to open the FrmStackPanel window -->
+        <Button Content="Open FrmStackPanel" 
+                x:Name="btnStackPanel" 
+                Margin="5" 
+                Click="btnStackPanel_Click" />
+
+        <!-- Button to close the application -->
+        <Button Content="Close" 
+                x:Name="btnClose" 
+                Margin="5" 
+                Click="btnClose_Click" />
+    </StackPanel>
+</Window>

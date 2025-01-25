@@ -1,0 +1,79 @@
+﻿<Window x:Class="WPF_Start_examples.FrmGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Start_examples"
+        mc:Ignorable="d"
+        Title="FrmGrid" Height="450" Width="800">
+    <!-- Grid layout with rows and columns -->
+    <Grid ShowGridLines="True">
+        <!-- Define rows -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <!-- First row -->
+            <RowDefinition Height="40"/>
+            <!-- Second row -->
+            <RowDefinition Height="*"/>
+            <!-- Third row (takes remaining space) -->
+            <RowDefinition Height="*"/>
+            <!-- Fourth row (takes remaining space) -->
+        </Grid.RowDefinitions>
+
+        <!-- Define columns -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- First column -->
+            <ColumnDefinition/>
+            <!-- Second column -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Label for First Name -->
+        <Label x:Name="lblFirstName" 
+               Grid.Row="0" 
+               Grid.Column="0" 
+               Content="_First Name:" 
+               Target="{Binding ElementName=txtFirstName}"/>
+        <!-- Associates label with text box -->
+
+        <!-- Text box for First Name -->
+        <TextBox x:Name="txtFirstName" 
+                 AcceptsReturn="True" 
+                 MinLines="2" 
+                 Grid.Column="1" 
+                 Grid.Row="0" 
+                 Margin="5"/>
+
+        <!-- Label for Last Name -->
+        <Label x:Name="lblLastName" 
+               Grid.Row="1" 
+               Grid.Column="0" 
+               Content="_Last Name:" 
+               Target="{Binding ElementName=txtLastName}"/>
+        <!-- Associates label with text box -->
+
+        <!-- Text box for Last Name -->
+        <TextBox x:Name="txtLastName" 
+                 Grid.Column="1" 
+                 Grid.Row="1" 
+                 Margin="5" 
+                 BorderBrush="Black" 
+                 BorderThickness="1"/>
+
+        <!-- Submit button -->
+        <Button x:Name="btnSubmit" 
+                Grid.Row="2"
+                Grid.ColumnSpan="2" 
+                Content="Submit" 
+                Margin="5" 
+                Click="btnSubmit_Click"/>
+
+        <!-- Close button -->
+        <Button x:Name="btnClose" 
+                Grid.Row="3" 
+                Grid.ColumnSpan="2" 
+                Content="Close" 
+                Margin="5" 
+                Click="btnClose_Click"/>
+    </Grid>
+</Window>
