@@ -1,5 +1,15 @@
 # WPF Common Controls Exercises
 
+## Setup
+- Create a project named `WPF Common Controls exercises`.
+- Update the MainWindow to navigate to the exercises.
+
+### Design
+
+![Setup Image 1](./Screenshots/Setup_1.png)
+
+---
+
 ## Exercise 1 – Ideal Weight
 
 ### Objective
@@ -18,11 +28,11 @@ The ideal weight for a man can be calculated based on his height. The ideal weig
   - For men: Subtract 100 from the height in cm. Reduce the resulting number by 10%. The result is the ideal weight.
   - For women: The formula is `M = (L + 4 x P – 100) / 2`, where `M` is the body weight in kg, `L` is the height in cm, and `P` is the wrist circumference in cm.
 
-![Exercise 1 Image 2](./Screenshots/Exercise_1_Situation_2.png)
+![Exercise 1 Image 2](./Screenshots/Exercise_1_Situation_2.png) ![Exercise 1 Image 3](./Screenshots/Exercise_1_Situation_3.png)
 
 - If non-numeric values are entered, an error message is displayed.
 
-![Exercise 1 Image 3](./Screenshots/Exercise_1_Situation_3.png)
+![Exercise 1 Image 4](./Screenshots/Exercise_1_Situation_4.png) ![Exercise 1 Image 5](./Screenshots/Exercise_1_Situation_5.png)
 
 ### Specifications
 - To set the tab order for controls, use `TabIndex`. `TabStop` ensures that the field is skipped when pressing Tab.
@@ -48,9 +58,7 @@ The ideal weight for a man can be calculated based on his height. The ideal weig
 
 - If a non-numeric value is entered, an error message is displayed.
 
-![Exercise 2 Image 3](./Screenshots/Exercise_2_Situation_3.png)
-
-![Exercise 2 Image 4](./Screenshots/Exercise_2_Situation_4.png)
+![Exercise 2 Image 3](./Screenshots/Exercise_2_Situation_3.png) ![Exercise 2 Image 4](./Screenshots/Exercise_2_Situation_4.png)
 
 ---
 
@@ -81,6 +89,8 @@ The ideal weight for a man can be calculated based on his height. The ideal weig
 ![Exercise 3 Image 2](./Screenshots/Exercise_3_Situation_2.png)
 
 ![Exercise 3 Image 3](./Screenshots/Exercise_3_Situation_3.png)
+
+![Exercise 3 Image 4](./Screenshots/Exercise_3_Situation_4.png)
 
 ### Specifications
 - A file is read with the following data: `email`.
@@ -117,6 +127,8 @@ The ideal weight for a man can be calculated based on his height. The ideal weig
 ![Exercise 4 Image 2](./Screenshots/Exercise_4_Situation_2.png)
 
 ![Exercise 4 Image 3](./Screenshots/Exercise_4_Situation_3.png)
+
+![Exercise 4 Image 4](./Screenshots/Exercise_4_Situation_4.png)
 
 - After reading all valid records, the average age is displayed.
 

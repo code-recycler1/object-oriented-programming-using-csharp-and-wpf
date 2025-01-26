@@ -19,7 +19,7 @@ namespace WPF_Common_Controls_exercises
         private void btnPrint_Click(object sender, RoutedEventArgs e)
         {
             // Filename
-            string filename = "Records (exercise 2).txt";
+            string filename = "Records (exercise 3).txt";
 
             // Clear the labels before displaying new results
             lblInvalidRecords.Content = "";
