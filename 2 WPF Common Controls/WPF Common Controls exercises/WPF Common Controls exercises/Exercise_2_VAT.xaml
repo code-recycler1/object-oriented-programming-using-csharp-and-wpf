@@ -1,0 +1,113 @@
+﻿<Window x:Class="WPF_Common_Controls_exercises.Exercise_2_VAT"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Common_Controls_exercises"
+        mc:Ignorable="d"
+        Title="Exercise 2 - VAT" Height="250" Width="500" Loaded="Window_Loaded">
+    <!-- Main container using a Grid layout -->
+    <Grid>
+        <!-- Define columns for the Grid -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- Column 0: VAT percentage options -->
+            <ColumnDefinition/>
+            <!-- Column 1: Labels -->
+            <ColumnDefinition/>
+            <!-- Column 2: Input fields and buttons -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Define rows for the Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <!-- Row 0: Amount input -->
+            <RowDefinition Height="auto"/>
+            <!-- Row 1: Amount including VAT display -->
+            <RowDefinition Height="auto"/>
+            <!-- Row 2: Calculate button -->
+            <RowDefinition Height="auto"/>
+            <!-- Row 3: Close button -->
+        </Grid.RowDefinitions>
+
+        <!-- GroupBox for VAT percentage options -->
+        <GroupBox Header="VAT" 
+                  Margin="10" 
+                  Grid.Row="0" 
+                  Grid.Column="0" 
+                  Grid.RowSpan="4">
+            <StackPanel>
+                <!-- RadioButton for 0% VAT -->
+                <RadioButton x:Name="rb0" 
+                             Content="0 %" 
+                             Margin="10"/>
+
+                <!-- RadioButton for 6% VAT -->
+                <RadioButton x:Name="rb6" 
+                             Content="6 %" 
+                             Margin="10"/>
+
+                <!-- RadioButton for 12% VAT -->
+                <RadioButton x:Name="rb12" 
+                             Content="12 %" 
+                             Margin="10"/>
+
+                <!-- RadioButton for 21% VAT -->
+                <RadioButton x:Name="rb21" 
+                             Content="21 %" 
+                             Margin="10"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Label for the amount input -->
+        <Label x:Name="lblAmount" 
+               Content="Amount:" 
+               Margin="10" 
+               Grid.Row="0" 
+               Grid.Column="1"/>
+
+        <!-- Label for the amount including VAT -->
+        <Label x:Name="lblAmountIncludingVAT" 
+               Content="Amount Including VAT:" 
+               Margin="10" 
+               Grid.Row="1" 
+               Grid.Column="1"/>
+
+        <!-- TextBox for entering the amount -->
+        <TextBox x:Name="txtAmount" 
+                 Margin="10" 
+                 Grid.Row="0" 
+                 Grid.Column="2"/>
+
+        <!-- TextBox to display the amount including VAT -->
+        <TextBox x:Name="txtAmountIncludingVAT" 
+                 IsEnabled="False" 
+                 Margin="10" 
+                 Grid.Row="1" 
+                 Grid.Column="2"/>
+
+        <!-- Button to reset the fields -->
+        <Button x:Name="btnReset" 
+                Content="Reset" 
+                Margin="10" 
+                Grid.Row="2" 
+                Grid.Column="1"
+                Click="btnReset_Click"/>
+
+        <!-- Button to calculate the amount including VAT -->
+        <Button x:Name="btnCalculate" 
+                Content="Calculate"
+                Margin="10" 
+                Grid.Row="2" 
+                Grid.Column="2"
+                Click="btnCalculate_Click"/>
+
+        <!-- Button to close the application -->
+        <Button x:Name="btnClose" 
+                Content="Close"
+                Margin="10" 
+                Grid.Row="3" 
+                Grid.Column="2"
+                Click="btnClose_Click"/>
+    </Grid>
+</Window>

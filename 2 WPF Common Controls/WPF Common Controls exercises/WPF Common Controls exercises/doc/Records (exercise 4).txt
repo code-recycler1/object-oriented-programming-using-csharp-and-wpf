@@ -1,0 +1,9 @@
+﻿1;MVDB;F;mvdb@test.be;37
+2;WS;M;ws@test.be;41
+3;TS;M;ts@test.be;21
+A;JVS;M;jvstest.be;55
+4;TVR;F;tvr@test.be;34
+5;AZ;O;az@test.be;46
+6;15;F;test@test.be;47
+7;AC;F;ac.testbe;28
+8;JH;M;jh@test.be;23

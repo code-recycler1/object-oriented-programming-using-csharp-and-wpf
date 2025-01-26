@@ -1,0 +1,41 @@
+﻿<Window x:Class="WPF_Common_Controls_exercises.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Common_Controls_exercises"
+        mc:Ignorable="d"
+        Title="WPF Common Controls Exercises" Height="200" Width="400">
+    <!-- Main container for the buttons -->
+    <StackPanel>
+        <!-- Button to open the exercise 1 window -->
+        <Button Content="Exercise 1 - Ideal Weight" 
+                x:Name="btnExercise_1_Ideal_Weight"
+                Margin="5" 
+                Click="btnExercise_1_Ideal_Weight_Click" />
+
+        <!-- Button to open the exercise 2 window -->
+        <Button Content="Exercise 2 - VAT" 
+                x:Name="btnExercise_2_VAT" 
+                Margin="5" 
+                Click="btnExercise_2_VAT_Click"/>
+
+        <!-- Button to open the exercise 3 window -->
+        <Button Content="Exercise 3 - Reading Files (Basic)" 
+                x:Name="btnExercise_3_Reading_Files_Basic" 
+                Margin="5" 
+                Click="btnExercise_3_Reading_Files_Basic_Click" />
+
+        <!-- Button to open the exercise 4 window -->
+        <Button Content="Exercise 4 - Reading Files (Advanced)" 
+                x:Name="btnExercise_4_Reading_Files_Advanced" 
+                Margin="5"
+                Click="btnExercise_4_Reading_Files_Advanced_Click" />
+
+        <!-- Button to close the application -->
+        <Button Content="Close" 
+                x:Name="btnClose" 
+                Margin="5" 
+                Click="btnClose_Click"/>
+    </StackPanel>
+</Window>
