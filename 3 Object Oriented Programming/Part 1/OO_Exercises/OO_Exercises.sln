@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OO_Exercises_WPF", "OO_Exercises_WPF\OO_Exercises_WPF.csproj", "{B8B3F8D0-9767-4118-B489-E0122B331133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OO_Exercises_Models", "OO_Exercises_Models\OO_Exercises_Models.csproj", "{28354D2E-4931-4468-95B5-469C1CC69DBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B3F8D0-9767-4118-B489-E0122B331133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B3F8D0-9767-4118-B489-E0122B331133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B3F8D0-9767-4118-B489-E0122B331133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B3F8D0-9767-4118-B489-E0122B331133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28354D2E-4931-4468-95B5-469C1CC69DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28354D2E-4931-4468-95B5-469C1CC69DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28354D2E-4931-4468-95B5-469C1CC69DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28354D2E-4931-4468-95B5-469C1CC69DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

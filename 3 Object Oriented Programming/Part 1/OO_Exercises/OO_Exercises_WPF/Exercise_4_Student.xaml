@@ -1,0 +1,82 @@
+﻿<Window x:Class="OO_Exercises_WPF.Exercise_4_Student"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OO_Exercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 4 - Student" Height="250" Width="525">
+    <!-- Main container using a Grid layout -->
+    <Grid>
+        <!-- Define rows for the Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <!-- Row 0: Name input -->
+            <RowDefinition Height="auto"/>
+            <!-- Row 1: Mathematics grade input -->
+            <RowDefinition Height="auto"/>
+            <!-- Row 2: Computer science grade input -->
+            <RowDefinition Height="auto"/>
+            <!-- Row 3: Show button -->
+            <RowDefinition/>
+            <!-- Row 4: Result display -->
+        </Grid.RowDefinitions>
+
+        <!-- Define columns for the Grid -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- Column 0: Labels -->
+            <ColumnDefinition/>
+            <!-- Column 1: Input fields -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Label for the name input -->
+        <Label x:Name="lblName" 
+               Content="Name" 
+               VerticalAlignment="Center"/>
+
+        <!-- TextBox for entering the name -->
+        <TextBox x:Name="txtName" 
+                 Grid.Column="1" 
+                 Margin="10"/>
+
+        <!-- Label for the mathematics grade input -->
+        <Label x:Name="lblMathematics" 
+               Content="Mathematics" 
+               Grid.Row="1" 
+               VerticalAlignment="Center"/>
+
+        <!-- TextBox for entering the mathematics grade -->
+        <TextBox x:Name="txtMathematics" 
+                 Grid.Column="1" 
+                 Grid.Row="1" 
+                 Margin="10"/>
+
+        <!-- Label for the computer science grade input -->
+        <Label x:Name="lblComputerScience" 
+               Content="Computer science" 
+               Grid.Row="2" 
+               VerticalAlignment="Center"/>
+
+        <!-- TextBox for entering the computer science grade -->
+        <TextBox x:Name="txtComputerScience"
+                 Grid.Column="1" 
+                 Grid.Row="2" 
+                 Margin="10"/>
+
+        <!-- Button to show the student's data -->
+        <Button x:Name="btnShow" 
+                Content="Show" 
+                Grid.ColumnSpan="2" 
+                Grid.Row="3" 
+                Margin="10" 
+                Click="btnShow_Click"/>
+
+        <!-- Label to display the result -->
+        <Label x:Name="lblResult" 
+               Content="..."
+               Grid.ColumnSpan="2"
+               Grid.Row="4" 
+               Margin="10"/>
+    </Grid>
+</Window>

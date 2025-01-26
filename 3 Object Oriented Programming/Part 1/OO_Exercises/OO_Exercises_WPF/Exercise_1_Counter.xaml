@@ -1,0 +1,59 @@
+﻿<Window x:Class="OO_Exercises_WPF.Exercise_1_Counter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OO_Exercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 1 - Counter" Height="350" Width="525">
+    <!-- Main container using a Grid layout -->
+    <Grid>
+        <!-- Define rows for the Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <!-- Row 0: Show count value button -->
+            <RowDefinition/>
+            <!-- Row 1: Increment count button -->
+            <RowDefinition/>
+            <!-- Row 2: Decrement count button -->
+            <RowDefinition/>
+            <!-- Row 3: Reset counter button -->
+            <RowDefinition/>
+            <!-- Row 4: Close button -->
+        </Grid.RowDefinitions>
+
+        <!-- Button to show the current count value -->
+        <Button x:Name="btnShowCountValue" 
+                Content="Show count value" 
+                Margin="10" 
+                Click="btnShowCountValue_Click"/>
+
+        <!-- Button to increment the counter by 1 -->
+        <Button x:Name="btnIncrementCount" 
+                Content="Increment count by 1" 
+                Margin="10" 
+                Grid.Row="1" 
+                Click="btnIncrementCount_Click"/>
+
+        <!-- Button to decrement the counter by 1 -->
+        <Button x:Name="btnDecrementCount" 
+                Content="Decrement count by 1" 
+                Margin="10" 
+                Grid.Row="2" 
+                Click="btnDecrementCount_Click"/>
+
+        <!-- Button to reset the counter to 0 -->
+        <Button x:Name="btnResetCounter" 
+                Content="Reset count to 0" 
+                Margin="10" 
+                Grid.Row="3" 
+                Click="btnResetCounter_Click"/>
+
+        <!-- Button to close the application -->
+        <Button x:Name="btnClose" 
+                Content="Close" 
+                Grid.Row="4" 
+                Margin="10" 
+                Click="btnClose_Click"/>
+    </Grid>
+</Window>

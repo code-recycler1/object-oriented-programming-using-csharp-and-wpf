@@ -1,0 +1,47 @@
+﻿<Window x:Class="OO_Exercises_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OO_Exercises_WPF"
+        mc:Ignorable="d"
+        Title="Object Oriented Programming Part 1 Exercises" Height="220" Width="400">
+    <!-- Main container for the buttons -->
+    <StackPanel>
+        <!-- Button to open the exercise 1 window -->
+        <Button Content="Exercise 1 - Counter" 
+                x:Name="btnExercise_1_Counter"
+                Margin="5" 
+                Click="btnExercise_1_Counter_Click" />
+
+        <!-- Button to open the exercise 2 window -->
+        <Button Content="Exercise 2 - TV" 
+                x:Name="btnExercise_2_TV" 
+                Margin="5" 
+                Click="btnExercise_2_TV_Click"/>
+
+        <!-- Button to open the exercise 3 window -->
+        <Button Content="Exercise 3 - Swimming Pool" 
+                x:Name="btnExercise_3_Swimming_Pool" 
+                Margin="5" 
+                Click="btnExercise_3_Swimming_Pool_Click" />
+
+        <!-- Button to open the exercise 4 window -->
+        <Button Content="Exercise 4 - Student" 
+                x:Name="btnExercise_4_Student" 
+                Margin="5"
+                Click="btnExercise_4_Student_Click" />
+
+        <!-- Button to open the exercise 5 window -->
+        <Button Content="Exercise 5 - Rectangle" 
+                x:Name="btnExercise_5_Rectangle" 
+                Margin="5"
+                Click="btnExercise_5_Rectangle_Click"/>
+
+        <!-- Button to close the application -->
+        <Button Content="Close" 
+                x:Name="btnClose" 
+                Margin="5" 
+                Click="btnClose_Click"/>
+    </StackPanel>
+</Window>
