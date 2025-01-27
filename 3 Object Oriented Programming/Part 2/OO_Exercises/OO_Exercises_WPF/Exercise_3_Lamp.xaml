@@ -1,0 +1,94 @@
+﻿<Window x:Class="OO_Exercises_WPF.Exercise_3_Lamp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OO_Exercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 3 - Lamp" Height="450" Width="800" Loaded="Window_Loaded">
+    <!-- Main Grid Layout -->
+    <Grid>
+        <!-- Define Columns -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <!-- Column 0: Takes 2 parts of space -->
+            <ColumnDefinition/>
+            <!-- Column 1: Takes 1 part of space -->
+            <ColumnDefinition/>
+            <!-- Column 2: Takes 1 part of space -->
+        </Grid.ColumnDefinitions>
+        <!-- Define Rows -->
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <!-- Row 0: Takes equal space -->
+            <RowDefinition/>
+            <!-- Row 1: Takes equal space -->
+            <RowDefinition/>
+            <!-- Row 2: Takes equal space -->
+            <RowDefinition/>
+            <!-- Row 3: Takes equal space -->
+        </Grid.RowDefinitions>
+
+        <!-- Label to Display Lamp Color -->
+        <Label x:Name="lblLamp" 
+               Grid.Row="0" 
+               Grid.Column="0" 
+               Margin="5" 
+               Grid.RowSpan="3" />
+
+        <!-- Label to Display RGB Values -->
+        <Label x:Name="lblLampValues" 
+               Grid.Row="3" 
+               Grid.Column="0" 
+               Margin="5" />
+
+        <!-- Button to Set Random Color -->
+        <Button x:Name="btnRandomColor" 
+                Content="Random Color" 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Grid.ColumnSpan="2" 
+                Margin="5" 
+                Click="btnRandomColor_Click" />
+
+        <!-- Buttons to Adjust Red, Green, and Blue Values -->
+        <Button x:Name="btnMoreRed"
+                Content="More Red" 
+                Grid.Row="1" 
+                Grid.Column="1"
+                Margin="5" 
+                Click="btnMoreRed_Click" />
+        <Button x:Name="btnLessRed" 
+                Content="Less Red" 
+                Grid.Row="1" 
+                Grid.Column="2" 
+                Margin="5" 
+                Click="btnLessRed_Click" />
+
+        <Button x:Name="btnMoreGreen" 
+                Content="More Green"
+                Grid.Row="2" 
+                Grid.Column="1" 
+                Margin="5" 
+                Click="btnMoreGreen_Click" />
+        <Button x:Name="btnLessGreen"
+                Content="Less Green"
+                Grid.Row="2"
+                Grid.Column="2" 
+                Margin="5"
+                Click="btnLessGreen_Click" />
+
+        <Button x:Name="btnMoreBlue"
+                Content="More Blue" 
+                Grid.Row="3" 
+                Grid.Column="1" 
+                Margin="5" 
+                Click="btnMoreBlue_Click" />
+        <Button x:Name="btnLessBlue"
+                Content="Less Blue"
+                Grid.Row="3" 
+                Grid.Column="2"
+                Margin="5" 
+                Click="btnLessBlue_Click" />
+    </Grid>
+</Window>

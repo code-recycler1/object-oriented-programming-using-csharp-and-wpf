@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="OO_Exercises_Models.Square">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAggAAAEAAAAAAAAAAAAAACAAAAQAAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Exercises_Models.BMI">
+    <Position X="2.5" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAAAAAAAAAAAAAAAARABCAIAAAABAAAAAAAAAA=</HashCode>
+      <FileName>BMI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Exercises_Models.Lamp">
+    <Position X="6" Y="2.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAALAAABAgAAYoAAAAAAAQAAAAAABAAAAAAAApAAAIE=</HashCode>
+      <FileName>Lamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Exercises_Models.Train">
+    <Position X="9" Y="2.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAEAgQAAAAAABAAAAARCAAQAAAgJAEAAAgAAAA=</HashCode>
+      <FileName>Train.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Exercises_Models.Tamagotchi">
+    <Position X="12.25" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAIgAAAAAACAABAAEAAAQAAAAAICAAAAAAAAAIAAA=</HashCode>
+      <FileName>Tamagotchi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
