@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="UnitTestingExercises_Models.SwimmingPool">
+    <Position X="1" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAEAAAAAAAEBAABEIAAAgBEAAAAAAAAA=</HashCode>
+      <FileName>SwimmingPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitTestingExercises_Models.Train">
+    <Position X="4.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAEAgQAAAAAABAAAAARCAAQAAAgJAEAAAgAAAA=</HashCode>
+      <FileName>Train.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitTestingExercises_Models.Tamagotchi">
+    <Position X="8" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAIgAAAAAACAABAAEAAAQAAAAAICAAAAAAAAAIAAA=</HashCode>
+      <FileName>Tamagotchi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
