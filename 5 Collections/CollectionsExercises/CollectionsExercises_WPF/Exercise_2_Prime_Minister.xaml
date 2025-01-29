@@ -1,0 +1,61 @@
+﻿<Window x:Class="CollectionsExercises_WPF.Exercise_2_Prime_Minister"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectionsExercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 2 - Most Popular Prime Minister Since 1973" Height="450" Width="400" Loaded="Window_Loaded">
+    <Grid>
+        <!-- Define 3 rows for the layout -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!-- Define 3 columns for the layout -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ComboBox to display the list of ministers -->
+        <ComboBox x:Name="cmbMinisters" 
+                  Grid.Row="0" 
+                  Grid.Column="0"
+                  Grid.ColumnSpan="3"
+                  Margin="5"/>
+
+        <!-- Button to display the voting results -->
+        <Button x:Name="btnOutcome" 
+                Content="Outcome" 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                Margin="5" 
+                Click="btnOutcome_Click"/>
+
+        <!-- Button to vote for the selected minister -->
+        <Button x:Name="btnVote" 
+                Content="Vote" 
+                Grid.Row="1" 
+                Grid.Column="1"
+                Margin="5" 
+                Click="btnVote_Click"/>
+
+        <!-- Button to close the application -->
+        <Button x:Name="btnClose" 
+                Content="Close" 
+                Grid.Row="1" 
+                Grid.Column="2"
+                Margin="5" 
+                Click="btnClose_Click"/>
+
+        <!-- Label to display the voting results -->
+        <Label x:Name="lblResult"
+               Grid.Row="2" 
+               Grid.Column="0" 
+               Grid.ColumnSpan="3"
+               Margin="5"/>
+    </Grid>
+</Window>
