@@ -1,0 +1,31 @@
+﻿<Window x:Class="CollectionsAndOOExercises_WPF.Exercise_3_Shopping_Cart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollectionsAndOOExercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 3 - Shopping Cart" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblQuantity" Content="Quantity" Margin="10"/>
+        <TextBox x:Name="txtQuantity" Grid.Column="1" Margin="10"/>
+        <Label x:Name="lblName" Content="Name" Margin="10" Grid.Row="1" />
+        <TextBox x:Name="txtName" Grid.Column="1" Grid.Row="1" Margin="10"/>
+        <Label x:Name="lblPrice" Content="Price" Margin="10" Grid.Row="2"/>
+        <TextBox x:Name="txtPrice" Grid.Column="1" Grid.Row="2" Margin="10"/>
+        <Button x:Name="btnShow" Content="Show Shopping Cart" Grid.Row="3" Margin="10" Click="btnShow_Click"/>
+        <Button x:Name="btnAdd" Content="Add to Shopping Cart" Grid.Row="3" Grid.Column="1" Margin="10" Click="btnAdd_Click"/>
+        <Label x:Name="lblShoppingCart" Content="Shopping Cart.." FontFamily="Courier New" Margin="10" Grid.Row="4" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

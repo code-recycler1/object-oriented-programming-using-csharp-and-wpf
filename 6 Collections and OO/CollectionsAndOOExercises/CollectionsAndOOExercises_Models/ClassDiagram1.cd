@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="CollectionsAndOOExercises_Models.ShoppingCartItem">
+    <Position X="7.5" Y="1" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AgAAIAAAAQAAAAAFAAAAAAQQAAAAQAAAAAAAgAAAAAA=</HashCode>
+      <FileName>ShoppingCartItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollectionsAndOOExercises_Models.TelevisionChannel">
+    <Position X="0.5" Y="1" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAEAEAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>TelevisionChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollectionsAndOOExercises_Models.Trainee">
+    <Position X="4.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEAAAAAAAIAAAAEAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Trainee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
