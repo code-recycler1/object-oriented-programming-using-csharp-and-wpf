@@ -1,0 +1,101 @@
+﻿<Window x:Class="InheritancePart1Exercises_WPF.Exercise_3_Cylinder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InheritancePart1Exercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 3 - Cylinder" Height="300" Width="400">
+    <Grid>
+        <!-- Define 5 rows for the layout -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <!-- Define 3 columns for the layout -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Label and TextBox for entering X coordinate -->
+        <Label x:Name="lblX" 
+               Content="X" 
+               Margin="5" 
+               Grid.Row="0" 
+               Grid.Column="0"/>
+        <TextBox x:Name="txtX"
+                 Width="50" 
+                 Margin="5" 
+                 Grid.Row="0" 
+                 Grid.Column="1" />
+
+        <!-- Label and TextBox for entering Y coordinate -->
+        <Label x:Name="lblY" 
+               Content="Y" 
+               Margin="5" 
+               Grid.Row="1" 
+               Grid.Column="0"/>
+        <TextBox x:Name="txtY"
+                 Width="50" 
+                 Margin="5" 
+                 Grid.Row="1" 
+                 Grid.Column="1" />
+
+        <!-- Label and TextBox for entering radius (R) -->
+        <Label x:Name="lblR" 
+               Content="R" 
+               Margin="5" 
+               Grid.Row="2" 
+               Grid.Column="0"/>
+        <TextBox x:Name="txtR" 
+                 Width="50" 
+                 Margin="5" 
+                 Grid.Row="2" 
+                 Grid.Column="1" />
+
+        <!-- Label and TextBox for entering height (H) -->
+        <Label x:Name="lblH" 
+               Content="H" 
+               Margin="5" 
+               Grid.Row="3" 
+               Grid.Column="0"/>
+        <TextBox x:Name="txtH" 
+                 Width="50" 
+                 Margin="5" 
+                 Grid.Row="3"
+                 Grid.Column="1"/>
+
+        <!-- Buttons for testing Point, Circle, and Cylinder -->
+        <Button x:Name="btnPoints"
+                Content="Test Point" 
+                Margin="5" 
+                Grid.Row="1" 
+                Grid.Column="2" 
+                Click="btnPoints_Click"/>
+        <Button x:Name="btnCircle"
+                Content="Test Circle" 
+                Margin="5" 
+                Grid.Row="2" 
+                Grid.Column="2" 
+                Click="btnCircle_Click"/>
+        <Button x:Name="btnCylinder" 
+                Content="Test Cylinder" 
+                Margin="5" 
+                Grid.Row="3"
+                Grid.Column="2"
+                Click="btnCylinder_Click"/>
+
+        <!-- Label to display the result -->
+        <Label x:Name="lblResult" 
+               Content="Result.." 
+               Margin="5" 
+               Grid.Row="4" 
+               Grid.Column="0" 
+               Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>
