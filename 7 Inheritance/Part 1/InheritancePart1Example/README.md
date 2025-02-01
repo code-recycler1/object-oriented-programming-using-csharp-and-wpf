@@ -1,4 +1,4 @@
-# Inheritance Example
+# Inheritance Part 1 Example
 
 ## Overview
 

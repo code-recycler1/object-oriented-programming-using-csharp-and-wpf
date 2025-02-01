@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritancePart2Example_WPF", "InheritancePart2Example_WPF\InheritancePart2Example_WPF.csproj", "{23CF9371-91E6-4611-AFE1-7827109E8A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritancePart2Example_Models", "InheritancePart2Example_Models\InheritancePart2Example_Models.csproj", "{2F2E5595-7E63-46E6-9CF1-6E91C7783007}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23CF9371-91E6-4611-AFE1-7827109E8A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23CF9371-91E6-4611-AFE1-7827109E8A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23CF9371-91E6-4611-AFE1-7827109E8A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23CF9371-91E6-4611-AFE1-7827109E8A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2E5595-7E63-46E6-9CF1-6E91C7783007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2E5595-7E63-46E6-9CF1-6E91C7783007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2E5595-7E63-46E6-9CF1-6E91C7783007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2E5595-7E63-46E6-9CF1-6E91C7783007}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
