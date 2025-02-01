@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritancePart2Exercises_WPF", "InheritancePart2Exercises_WPF\InheritancePart2Exercises_WPF.csproj", "{40F896DD-8B59-425E-93E7-A33C66EBD5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritancePart2Exercises_Models", "InheritancePart2Exercises_Models\InheritancePart2Exercises_Models.csproj", "{5BB5B0E2-B7CD-4D81-9933-A45E06034C96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritancePart2Exercises_DAL", "InheritancePart2Exercises_DAL\InheritancePart2Exercises_DAL.csproj", "{6A036D32-5561-40C5-98DF-AE32D03E7D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F896DD-8B59-425E-93E7-A33C66EBD5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F896DD-8B59-425E-93E7-A33C66EBD5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F896DD-8B59-425E-93E7-A33C66EBD5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F896DD-8B59-425E-93E7-A33C66EBD5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB5B0E2-B7CD-4D81-9933-A45E06034C96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB5B0E2-B7CD-4D81-9933-A45E06034C96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB5B0E2-B7CD-4D81-9933-A45E06034C96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB5B0E2-B7CD-4D81-9933-A45E06034C96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A036D32-5561-40C5-98DF-AE32D03E7D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A036D32-5561-40C5-98DF-AE32D03E7D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A036D32-5561-40C5-98DF-AE32D03E7D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A036D32-5561-40C5-98DF-AE32D03E7D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

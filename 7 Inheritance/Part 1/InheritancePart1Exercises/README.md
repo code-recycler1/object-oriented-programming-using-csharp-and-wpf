@@ -1,4 +1,4 @@
-﻿# Inheritance Exercises
+﻿# Inheritance Part 1 Exercises
 
 ## Setup
 - Create a project. The solution name must be:`InheritancePart1Exercises`, the project name: `InheritancePart1Exercises_WPF`.
