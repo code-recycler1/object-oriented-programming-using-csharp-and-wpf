@@ -1,0 +1,7 @@
+﻿User;1;John;Doe;
+Teacher;2;Jane;Smith;1000
+Student;3;Joe;Hancock;1
+User;-4;Tom;Riddlestone;
+
+
+
