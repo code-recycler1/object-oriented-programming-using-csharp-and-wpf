@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="InheritancePart3Exercises_Models.Exercise_1.BankAccount">
+    <Position X="7" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ECAACACAAAAAAAAEgAgAIAAEAAAAAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>Exercise 1\BankAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritancePart3Exercises_Models.Exercise_1.CheckingAccount">
+    <Position X="8.5" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercise 1\CheckingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InheritancePart3Exercises_Models.Exercise_1.SavingsAccount">
+    <Position X="5.25" Y="5.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEAAAAAAAAAAgAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Exercise 1\SavingsAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
