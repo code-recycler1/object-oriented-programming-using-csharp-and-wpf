@@ -1,0 +1,15 @@
+﻿sole rolls;25,20;main course
+pork tenderloin;22,50;main course
+chocolate mousse;4,00;dessert
+tiramisu;5,00;dessert
+sabayon;5,50;dessert
+grilled salmon;18,90;main course
+beef stroganoff;21,50;main course
+chicken alfredo pasta;17,80;main course
+ribeye steak;24,00;main course
+lamb chops;26,50;main course
+duck breast;23,70;main course
+molten lava cake;6,50;dessert
+strawberry shortcake;5,80;dessert
+vanilla ice cream;4,20;dessert
+banana split;5,90;dessert

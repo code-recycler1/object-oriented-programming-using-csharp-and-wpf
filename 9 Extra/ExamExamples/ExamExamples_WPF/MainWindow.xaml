@@ -1,0 +1,29 @@
+﻿<Window x:Class="ExamExamples_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamExamples_WPF"
+        mc:Ignorable="d"
+        Title="Exam Examples" Height="130" Width="400">
+    <!-- Main container for the buttons -->
+    <StackPanel>
+        <!-- Button to open the exercise 1 window -->
+        <Button Content="Exercise 1 - Parcel Service" 
+                x:Name="btnExercise_1_Parcel_Service"
+                Margin="5" 
+                Click="btnExercise_1_Parcel_Service_Click"/>
+
+        <!-- Button to open the exercise 2 window -->
+        <Button Content="Exercise 2 - Christmas Dinner" 
+                x:Name="btnExercise_2_Christmas_Dinner" 
+                Margin="5" 
+                Click="btnExercise_2_Christmas_Dinner_Click"/>
+
+        <!-- Button to close the application -->
+        <Button Content="Close" 
+                x:Name="btnClose" 
+                Margin="5" 
+                Click="btnClose_Click"/>
+    </StackPanel>
+</Window>

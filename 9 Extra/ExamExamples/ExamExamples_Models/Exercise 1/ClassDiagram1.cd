@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="ExamExamples_Models.Exercise_1.OvernightPackage">
+    <Position X="4.5" Y="6" Width="10.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAEAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercise 1\OvernightPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamExamples_Models.Exercise_1.Package">
+    <Position X="10.75" Y="1.75" Width="8.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAFAQEAAAEAAAAgAAAACAAAAAAAAABAAAgAAA=</HashCode>
+      <FileName>Exercise 1\Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamExamples_Models.Exercise_1.TwodayPackage">
+    <Position X="15.75" Y="6" Width="10" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAABgAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Exercise 1\TwodayPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

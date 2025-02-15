@@ -1,0 +1,64 @@
+﻿<Window x:Class="ExamExamples_WPF.Exercise_2_Christmas_Dinner"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamExamples_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 2 - Christmas Dinner" Height="450" Width="1200"  SizeToContent="Height"  Loaded="Window_Loaded">
+    <Grid>
+        <!-- Define rows and columns for layout -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <!-- Row for Type and Show Reservations -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Name -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Number of People -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Main Course -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Dessert -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Buttons -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- Column for Labels and Inputs -->
+            <ColumnDefinition/>
+            <!-- Column for Inputs -->
+            <ColumnDefinition/>
+            <!-- Column for Reservations -->
+        </Grid.ColumnDefinitions>
+
+        <!-- GroupBox for Type selection -->
+        <GroupBox Grid.Row="0" Grid.Column="0" Margin="5" Header="Type" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="rbDinner" Content="Dinner" Margin="5" Checked="rbDinner_Checked"/>
+                <RadioButton x:Name="rbChristmasDinner" Content="Christmas Dinner" Margin="5" Checked="rbChristmasDinner_Checked"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Button to show reservations -->
+        <Button x:Name="btnShowReservations" Content="Show Reservations" Grid.Row="0" Grid.Column="2" Margin="5" Click="btnShowReservations_Click"/>
+
+        <!-- Labels and TextBoxes for Name and Number of People -->
+        <Label Content="Name" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="txtName" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <Label Content="Number of People" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="txtNumberOfPeople" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+        <!-- ComboBoxes for Main Course and Dessert -->
+        <Label Content="Main Course" Grid.Row="3" Grid.Column="0" Margin="5"/>
+        <ComboBox x:Name="cmbMainCourses" Grid.Row="3" Grid.Column="1" Margin="5"/>
+        <Label x:Name="lblDessert" Content="Dessert" Grid.Row="4" Grid.Column="0" Margin="5"/>
+        <ComboBox x:Name="cmbDesserts" Grid.Row="4" Grid.Column="1" Margin="5"/>
+
+        <!-- Buttons for Booking and Closing -->
+        <Button x:Name="btnBook" Content="Book" Grid.Row="5" Grid.Column="0" Margin="5" Click="btnBook_Click"/>
+        <Button x:Name="btnClose" Content="Close" Grid.Row="5" Grid.Column="1" Margin="5" Click="btnClose_Click"/>
+
+        <!-- Label to display reservations -->
+        <Label x:Name="lblReservations" Grid.Row="1" Grid.Column="2" Grid.RowSpan="5" FontFamily="Courier New"/>
+    </Grid>
+</Window>

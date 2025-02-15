@@ -1,0 +1,94 @@
+﻿<Window x:Class="ExamExamples_WPF.Exercise_1_Parcel_Service"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamExamples_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 1 - Parcel Service" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <!-- Define columns and rows for layout -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- Column for Sender and Destination -->
+            <ColumnDefinition/>
+            <!-- Column for Shipment Type and Pricing -->
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <!-- Row for Sender and Shipment Type -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Destination and Pricing -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Buttons -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Total Cost -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for ComboBox -->
+        </Grid.RowDefinitions>
+
+        <!-- GroupBox for Sender details -->
+        <GroupBox Header="Sender" Grid.Row="0" Grid.Column="0" Background="GreenYellow">
+            <StackPanel>
+                <DockPanel>
+                    <Label Content="Name" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtSenderName" Margin="5"/>
+                </DockPanel>
+                <DockPanel>
+                    <Label Content="Address" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtSenderAddress" Margin="5"/>
+                </DockPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- GroupBox for Shipment Type -->
+        <GroupBox Header="Shipment Type" Grid.Row="0" Grid.Column="1">
+            <StackPanel>
+                <RadioButton x:Name="rbTwoDay" Content="Two Day" Margin="5" Checked="rbTwoDay_Checked"/>
+                <RadioButton x:Name="rbOvernight" Content="Overnight" Margin="5" Checked="rbOvernight_Checked"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- GroupBox for Destination details -->
+        <GroupBox Header="Destination" Grid.Row="1" Grid.Column="0" Background="Orange">
+            <StackPanel>
+                <DockPanel>
+                    <Label Content="Name" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtDestinationName" Margin="5"/>
+                </DockPanel>
+                <DockPanel>
+                    <Label Content="Address" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtDestinationAddress" Margin="5"/>
+                </DockPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- GroupBox for Pricing details -->
+        <GroupBox Header="Pricing" Grid.Row="1" Grid.Column="1">
+            <StackPanel>
+                <DockPanel>
+                    <Label Content="Weight (kg)" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtWeightInKg" Margin="5"/>
+                </DockPanel>
+                <DockPanel>
+                    <Label Content="Price (per kg)" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtPricePerKg" Margin="5"/>
+                </DockPanel>
+                <DockPanel>
+                    <Label x:Name="lblShipmentType" Content="Shipment Type" Margin="5" DockPanel.Dock="Left"/>
+                    <TextBox x:Name="txtShipmentType" Margin="5"/>
+                </DockPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Buttons for Calculate and Update -->
+        <Button x:Name="btnCalculate" Content="Calculate" Grid.Row="2" Grid.Column="0" Margin="5" Click="btnCalculate_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" Grid.Row="2" Grid.Column="1" Margin="5" Click="btnUpdate_Click"/>
+
+        <!-- Label to display Total Cost -->
+        <Label x:Name="lblTotalCost" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" FontSize="20"/>
+
+        <!-- ComboBox to display list of packages -->
+        <ComboBox x:Name="cmbPackages" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" SelectionChanged="cmbPackages_SelectionChanged"/>
+    </Grid>
+</Window>
