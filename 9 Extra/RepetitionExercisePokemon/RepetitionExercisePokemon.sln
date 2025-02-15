@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionExercisePokemon_WPF", "RepetitionExercisePokemon_WPF\RepetitionExercisePokemon_WPF.csproj", "{08D8735E-5FC5-4AA9-9017-0ED5916B66C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionExercisePokemon_Models", "RepetitionExercisePokemon_Models\RepetitionExercisePokemon_Models.csproj", "{A3CA515A-72A2-4D4F-8550-536628DD0B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionExercisePokemon_DAL", "RepetitionExercisePokemon_DAL\RepetitionExercisePokemon_DAL.csproj", "{09B69953-C82F-4631-8600-5D0EA79FA419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08D8735E-5FC5-4AA9-9017-0ED5916B66C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D8735E-5FC5-4AA9-9017-0ED5916B66C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D8735E-5FC5-4AA9-9017-0ED5916B66C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D8735E-5FC5-4AA9-9017-0ED5916B66C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CA515A-72A2-4D4F-8550-536628DD0B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CA515A-72A2-4D4F-8550-536628DD0B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CA515A-72A2-4D4F-8550-536628DD0B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CA515A-72A2-4D4F-8550-536628DD0B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B69953-C82F-4631-8600-5D0EA79FA419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B69953-C82F-4631-8600-5D0EA79FA419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B69953-C82F-4631-8600-5D0EA79FA419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B69953-C82F-4631-8600-5D0EA79FA419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

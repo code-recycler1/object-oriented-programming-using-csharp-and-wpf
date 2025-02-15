@@ -1,0 +1,38 @@
+﻿<Window x:Class="RepetitionExercisePokemon_WPF.Exercise_1_OO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RepetitionExercisePokemon_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 1 - OO" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <!-- Define columns and rows for layout -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- Column for Player 1 -->
+            <ColumnDefinition/>
+            <!-- Column for Player 2 -->
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <!-- Row for Pokémon images -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for Pokémon info -->
+            <RowDefinition Height="auto"/>
+            <!-- Row for attack buttons -->
+        </Grid.RowDefinitions>
+
+        <!-- Pokémon images -->
+        <Image x:Name="imgPokemonPlayer1" Stretch="Fill" Grid.Row="0" Grid.Column="0" Margin="5"/>
+        <Image x:Name="imgPokemonPlayer2" Stretch="Fill" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+        <!-- Labels to display Pokémon info -->
+        <Label x:Name="lblPokemonPlayer1" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <Label x:Name="lblPokemonPlayer2" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+        <!-- Buttons for attacking -->
+        <Button x:Name="btnAttackPlayer1" Content="Attack >>" Grid.Row="2" Grid.Column="0" Margin="5" Click="btnAttackPlayer1_Click"/>
+        <Button x:Name="btnAttackPlayer2" Content="&lt;&lt; Attack" Grid.Row="2" Grid.Column="1" Margin="5" Click="btnAttackPlayer2_Click"/>
+    </Grid>
+</Window>
