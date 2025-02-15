@@ -1,0 +1,29 @@
+﻿<Window x:Class="ExceptionHandlingExercises_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExceptionHandlingExercises_WPF"
+        mc:Ignorable="d"
+        Title="Exception Handling Exercises" Height="130" Width="400">
+    <!-- Main container for the buttons -->
+    <StackPanel>
+        <!-- Button to open the exercise 1 window -->
+        <Button Content="Exercise 1 - Bank Account" 
+                x:Name="btnExercise_1_Bank_Account"
+                Margin="5" 
+                Click="btnExercise_1_Bank_Account_Click"/>
+
+        <!-- Button to open the exercise 2 window -->
+        <Button Content="Exercise 2 - Customer" 
+                x:Name="btnExercise_2_Customer" 
+                Margin="5" 
+                Click="btnExercise_2_Customer_Click"/>
+
+        <!-- Button to close the application -->
+        <Button Content="Close" 
+                x:Name="btnClose" 
+                Margin="5" 
+                Click="btnClose_Click"/>
+    </StackPanel>
+</Window>

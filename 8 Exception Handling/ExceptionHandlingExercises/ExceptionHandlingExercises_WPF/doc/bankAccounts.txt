@@ -1,0 +1,4 @@
+﻿bank account;BE 00 0000 1111 2222;-1000
+bank account;BE 82 1796 3107 6768;1000
+checking account;BE35 3630 8305 1137;500
+savings account;BE27 2100 0000 2173;2487;2,1

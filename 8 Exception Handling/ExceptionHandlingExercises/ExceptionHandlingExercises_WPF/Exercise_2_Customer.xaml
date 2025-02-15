@@ -1,0 +1,41 @@
+﻿<Window x:Class="ExceptionHandlingExercises_WPF.Exercise_2_Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExceptionHandlingExercises_WPF"
+        mc:Ignorable="d"
+        Title="Exercise 2 - Customer" Height="150" Width="800">
+    <Grid>
+        <!-- Define rows and columns for layout -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <!-- Row for input fields -->
+            <RowDefinition/>
+            <!-- Row for result display -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <!-- Column for label -->
+            <ColumnDefinition/>
+            <!-- Column for text box -->
+            <ColumnDefinition/>
+            <!-- Column for buttons -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Label for customer number input -->
+        <Label Content="Customer number" Margin="5" Grid.Row="0" Grid.Column="0"/>
+
+        <!-- TextBox for entering customer number -->
+        <TextBox x:Name="txtCustomerNumber" Margin="5" Grid.Row="0" Grid.Column="1"/>
+
+        <!-- Button to trigger search -->
+        <Button x:Name="btnSearch" Content="Search" Grid.Row="0" Grid.Column="2" Margin="5" Click="btnSearch_Click"/>
+
+        <!-- Label to display search result or error message -->
+        <Label x:Name="lblResult" Margin="5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+        <!-- Button to close the application -->
+        <Button x:Name="btnClose" Content="Close" Margin="5" Grid.Row="1" Grid.Column="2" Click="btnClose_Click"/>
+    </Grid>
+</Window>

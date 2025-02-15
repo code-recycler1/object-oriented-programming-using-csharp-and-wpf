@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="ExceptionHandlingExercises_Models.Exercise_1.BankAccount">
+    <Position X="8" Y="1.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACAAAAAAAAEgAgAAAAEAAAAAAAIAAAAAAAAAAI=</HashCode>
+      <FileName>Exercise 1\BankAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionHandlingExercises_Models.Exercise_1.CheckingAccount">
+    <Position X="6.25" Y="5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercise 1\CheckingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionHandlingExercises_Models.Exercise_1.CustomException">
+    <Position X="4.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exercise 1\CustomException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionHandlingExercises_Models.Exercise_1.SavingsAccount">
+    <Position X="10.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Exercise 1\SavingsAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
